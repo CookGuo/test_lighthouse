@@ -9,6 +9,8 @@ var s = ';;;'
 const w: any = 3
 let cc = 'ss'
 
+const aaa = '--'
+
 // cc = 1
 
 // let cc = ('啥' = '啥')
