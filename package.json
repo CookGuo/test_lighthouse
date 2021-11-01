@@ -8,7 +8,7 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "start": "tsc -w",
-    "build": "npm run lint && npm run test && rollup --config rollup.config.js"
+    "build": "npm run lint && npm run test && npm run format && rollup --config rollup.config.js"
   },
   "husky": {
     "pre-commit": "lint-staged",
@@ -17,7 +17,7 @@
   },
   "lint-staged": {
     "src/**/*.{vue,js,jsx,ts,tsx}": [
-      "eslint --max-warnings=0 --fix",
+      "npm run lint",
       "git add"
     ]
   },
