@@ -1,0 +1,16 @@
+{
+  // 这几项开启后会两次格式化
+  // eslint.enable禁用时, 开启能使用prettier进行格式化
+  // eslint.enable开启时, 关闭使用eslint来进行格式化
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  // eslint
+  "eslint.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "yarn",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "vue"]
+}

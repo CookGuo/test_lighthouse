@@ -1,15 +1,12 @@
-const a: number = 1
-const b: number = a
-
-var c = b
-var s = ';;;'
-
 const w: any = 3
 let cc = 'ss'
 
-const aaa = '--'
+const aaa = '-- 舒舒服服'
 
 const bbb = 'dgdg'
+const a = 1
+
+// var ss = 'dd'
 
 // cc = 1
 
